@@ -27,6 +27,7 @@ def move(board,input_to_index,character="X")
     board[input_to_index] = character
   else
     puts "invalid"
+    puts "Please enter 1-9:"
     move(board,input_to_index,character="X")
   end
 end
