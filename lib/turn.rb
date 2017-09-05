@@ -26,7 +26,7 @@ def move(board,input_to_index,character="X")
   if valid_move?(board,input_to_index)
     board[input_to_index] = character
   else
-    puts "That position is not valid."
+    puts "invalid"
     move(board,input_to_index,character="X")
   end
 end
